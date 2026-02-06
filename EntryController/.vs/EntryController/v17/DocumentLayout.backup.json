@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\entrycontroller\\entrycontroller\\entrydemo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|solutionrelative:entrycontroller\\entrydemo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\entrycontroller\\entrycontroller\\entrydemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|solutionrelative:entrycontroller\\entrydemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\entrycontroller\\entrycontroller\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5E8CCC6-0F75-42A0-B6F4-9BBE95C12697}|EntryController\\EntryController.csproj|solutionrelative:entrycontroller\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntryDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\EntryDemo.xaml.cs",
+              "RelativeDocumentMoniker": "EntryController\\EntryDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\EntryDemo.xaml.cs*",
+              "RelativeToolTip": "EntryController\\EntryDemo.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:34:12.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\AppShell.xaml",
+              "RelativeDocumentMoniker": "EntryController\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\AppShell.xaml",
+              "RelativeToolTip": "EntryController\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T23:33:28.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntryDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\EntryDemo.xaml",
+              "RelativeDocumentMoniker": "EntryController\\EntryDemo.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EntryController\\EntryController\\EntryDemo.xaml",
+              "RelativeToolTip": "EntryController\\EntryDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T23:32:26.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

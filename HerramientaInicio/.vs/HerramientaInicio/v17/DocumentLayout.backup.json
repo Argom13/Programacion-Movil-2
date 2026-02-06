@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\HerramientaInicio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{605FB6C3-5F8B-4462-9847-B56C8F0061AC}|HerramientaInicio\\HerramientaInicio.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\herramientainicio\\herramientainicio\\toolspagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{605FB6C3-5F8B-4462-9847-B56C8F0061AC}|HerramientaInicio\\HerramientaInicio.csproj|solutionrelative:herramientainicio\\toolspagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605FB6C3-5F8B-4462-9847-B56C8F0061AC}|HerramientaInicio\\HerramientaInicio.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\herramientainicio\\herramientainicio\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{605FB6C3-5F8B-4462-9847-B56C8F0061AC}|HerramientaInicio\\HerramientaInicio.csproj|solutionrelative:herramientainicio\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\HerramientaInicio\\HerramientaInicio\\AppShell.xaml",
+              "RelativeDocumentMoniker": "HerramientaInicio\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\HerramientaInicio\\HerramientaInicio\\AppShell.xaml",
+              "RelativeToolTip": "HerramientaInicio\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T23:18:53.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToolsPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\HerramientaInicio\\HerramientaInicio\\ToolsPageDemo.xaml",
+              "RelativeDocumentMoniker": "HerramientaInicio\\ToolsPageDemo.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\HerramientaInicio\\HerramientaInicio\\ToolsPageDemo.xaml*",
+              "RelativeToolTip": "HerramientaInicio\\ToolsPageDemo.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T23:18:35.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

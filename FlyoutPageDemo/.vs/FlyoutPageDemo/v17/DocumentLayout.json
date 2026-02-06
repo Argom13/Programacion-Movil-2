@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\flyoutpagedemo\\flyoutpagedemo\\tabbedpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|solutionrelative:flyoutpagedemo\\tabbedpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\flyoutpagedemo\\flyoutpagedemo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|solutionrelative:flyoutpagedemo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\flyoutpagedemo\\flyoutpagedemo\\tabbedpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|solutionrelative:flyoutpagedemo\\tabbedpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\flyoutpagedemo\\flyoutpagedemo\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|solutionrelative:flyoutpagedemo\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\flyoutpagedemo\\flyoutpagedemo\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A76DBE8-55CE-4085-8C63-F3E9813211A5}|FlyoutPageDemo\\FlyoutPageDemo.csproj|solutionrelative:flyoutpagedemo\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TabbedPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\TabbedPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "FlyoutPageDemo\\TabbedPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\TabbedPageDemo.xaml.cs",
+              "RelativeToolTip": "FlyoutPageDemo\\TabbedPageDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T23:34:11.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TabbedPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\TabbedPageDemo.xaml",
+              "RelativeDocumentMoniker": "FlyoutPageDemo\\TabbedPageDemo.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\TabbedPageDemo.xaml",
+              "RelativeToolTip": "FlyoutPageDemo\\TabbedPageDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T23:33:57.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "FlyoutPageDemo\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\MainPage.xaml.cs",
+              "RelativeToolTip": "FlyoutPageDemo\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T23:29:45.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "FlyoutPageDemo\\NewPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\NewPage1.xaml.cs",
+              "RelativeToolTip": "FlyoutPageDemo\\NewPage1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T23:26:36.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "FlyoutPageDemo\\NewPage1.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\FlyoutPageDemo\\FlyoutPageDemo\\NewPage1.xaml",
+              "RelativeToolTip": "FlyoutPageDemo\\NewPage1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T23:20:25.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

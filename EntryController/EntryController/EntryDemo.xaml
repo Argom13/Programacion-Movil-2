@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EntryController.EntryDemo"
+             Title="EntryDemo">
+    <StackLayout>
+
+        <Entry x:Name="txtEntry"
+               Placeholder="Enter text here"
+               IsPassword="True"
+               Keyboard="Telephone"
+               TextChanged="txtEntry_TextChanged"
+               Completed="txtEntry_Completed" />
+
+        <Editor AutoSize="TextChanges"/>
+
+        <ActivityIndicator IsRunning="True"
+                           Color="Azure"/>
+
+        <ProgressBar Progress=".3"/>
+
+    </StackLayout>
+</ContentPage>

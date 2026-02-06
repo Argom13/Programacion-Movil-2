@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\StackLayoutDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{076AE72B-6CBF-4AE8-A9D1-01D59C04ECE3}|StackLayoutDemo\\StackLayoutDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\stacklayoutdemo\\stacklayoutdemo\\stacklayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{076AE72B-6CBF-4AE8-A9D1-01D59C04ECE3}|StackLayoutDemo\\StackLayoutDemo.csproj|solutionrelative:stacklayoutdemo\\stacklayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{076AE72B-6CBF-4AE8-A9D1-01D59C04ECE3}|StackLayoutDemo\\StackLayoutDemo.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\stacklayoutdemo\\stacklayoutdemo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{076AE72B-6CBF-4AE8-A9D1-01D59C04ECE3}|StackLayoutDemo\\StackLayoutDemo.csproj|solutionrelative:stacklayoutdemo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\StackLayoutDemo\\StackLayoutDemo\\AppShell.xaml",
+              "RelativeDocumentMoniker": "StackLayoutDemo\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\StackLayoutDemo\\StackLayoutDemo\\AppShell.xaml",
+              "RelativeToolTip": "StackLayoutDemo\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T23:22:56.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StackLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\StackLayoutDemo\\StackLayoutDemo\\StackLayout.xaml",
+              "RelativeDocumentMoniker": "StackLayoutDemo\\StackLayout.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\StackLayoutDemo\\StackLayoutDemo\\StackLayout.xaml",
+              "RelativeToolTip": "StackLayoutDemo\\StackLayout.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T23:22:00.409Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

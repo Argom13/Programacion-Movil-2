@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\eventpage\\eventpage\\eventpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|solutionrelative:eventpage\\eventpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\eventpage\\eventpage\\eventpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|solutionrelative:eventpage\\eventpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\eventpage\\eventpage\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9A4D98C1-F6B8-4741-AE2E-3ED5C032CF81}|EventPage\\EventPage.csproj|solutionrelative:eventpage\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\EventPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "EventPage\\EventPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\EventPageDemo.xaml.cs",
+              "RelativeToolTip": "EventPage\\EventPageDemo.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T23:28:59.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\AppShell.xaml",
+              "RelativeDocumentMoniker": "EventPage\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\AppShell.xaml",
+              "RelativeToolTip": "EventPage\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T23:26:41.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\EventPageDemo.xaml",
+              "RelativeDocumentMoniker": "EventPage\\EventPageDemo.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\EventPage\\EventPage\\EventPageDemo.xaml",
+              "RelativeToolTip": "EventPage\\EventPageDemo.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T23:26:35.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

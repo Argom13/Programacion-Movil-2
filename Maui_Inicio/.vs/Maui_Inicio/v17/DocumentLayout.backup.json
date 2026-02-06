@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\maui_inicio\\maui_inicio\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|solutionrelative:maui_inicio\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\maui_inicio\\maui_inicio\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|solutionrelative:maui_inicio\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|c:\\users\\diego\\documents\\periodo-9-2026\\movil 2\\primer parcial\\maui_inicio\\maui_inicio\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38D4BF91-E0F3-42F0-9F93-7071709235F9}|Maui_Inicio\\Maui_Inicio.csproj|solutionrelative:maui_inicio\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Maui_Inicio\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\AppShell.xaml",
+              "RelativeToolTip": "Maui_Inicio\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T23:37:30.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Maui_Inicio\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\MainPage.xaml.cs",
+              "RelativeToolTip": "Maui_Inicio\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T23:37:12.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Maui_Inicio\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\diego\\Documents\\Periodo-9-2026\\Movil 2\\Primer Parcial\\Maui_Inicio\\Maui_Inicio\\MainPage.xaml",
+              "RelativeToolTip": "Maui_Inicio\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T23:34:06.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
