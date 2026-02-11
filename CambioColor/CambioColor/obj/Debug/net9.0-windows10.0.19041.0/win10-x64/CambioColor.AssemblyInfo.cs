@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CambioColor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+08b7f629214122325533ef5e500837c21a48d167")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f3896db2e56cb2f2f991ac81396e45def57077c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CambioColor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CambioColor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

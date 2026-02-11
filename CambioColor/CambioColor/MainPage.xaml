@@ -30,22 +30,22 @@
                        Text="Colores"/>
 
 
-                <Label Text="Slider 1"/>
-                <Slider x:Name="Sl1"
+                <Label Text="Slider Red"/>
+                <Slider x:Name="SldRed"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Secondary}"
                         MinimumTrackColor="{StaticResource Terciary}">
 
                 </Slider>
 
-                <Label Text="Slider 2"/>
-                <Slider x:Name="Sl2"
+                <Label Text="Slider Green"/>
+                <Slider x:Name="SldGreen"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Secondary}"
                         MinimumTrackColor="{StaticResource Terciary}"/>
 
-                <Label Text="Slider 3"/>
-                <Slider x:Name="Sl3"
+                <Label Text="Slide Blue"/>
+                <Slider x:Name="SldBlue"
                          ThumbColor="{StaticResource Primary}"
                          MaximumTrackColor="{StaticResource Secondary}"
                          MinimumTrackColor="{StaticResource Terciary}"/>
@@ -78,7 +78,8 @@
 
                 <Button x:Name="BtnRandom"
                         BackgroundColor="{StaticResource Primary}"
-                        Text="Generar"/>
+                        Text="Generar"
+                        Clicked="BtnRandom_Clicked"/>
 
             </VerticalStackLayout>
             
