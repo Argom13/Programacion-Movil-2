@@ -4,7 +4,7 @@
              x:Class="PropinaMAUI.MainPage">
 
     <ContentPage.Resources>
-        <Color x:Key="SectionColor">#444</Color>
+        <Color x:Key="SectionColor">#444444</Color>
         <Color x:Key="LightFont">#d6d6d6</Color>
         <Color x:Key="DarkFont">#4fd8eb</Color>
     </ContentPage.Resources>
@@ -14,11 +14,9 @@
             <RowDefinition Height=".3*"/>
             <RowDefinition Height=".7*"/>
         </Grid.RowDefinitions>
-
         <Frame Padding="10"
                BackgroundColor="{StaticResource SectionColor}"
                BorderColor="Transparent">
-
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -27,39 +25,124 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height=".1*"/>
+                    <RowDefinition Height=".9*"/>
                 </Grid.RowDefinitions>
 
                 <Label Grid.ColumnSpan="3"
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
-                       Text="Total Personas:"
+                       Text="TOTAL PERSONAS"
                        TextColor="{StaticResource DarkFont}"
-                       VerticalOptions="Center"/>
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Label x:Name="Lbltotal"
+                       Grid.Row="1"
+                       FontAttributes="Bold"
+                       FontSize="35"
+                       HorizontalTextAlignment="Center"
+                       Text="$0.00"
+                       TextColor="{StaticResource LightFont}"
+                       VerticalOptions="CenterAndExpand"/>
 
                 <BoxView Grid.Row="1"
                          Grid.Column="1"
-                         Margin="0, 10, 0, 0"
+                         Margin="0,10,0,0"
+                         WidthRequest="1"
                          VerticalOptions="Center"
                          Color="#adadad"/>
 
                 <VerticalStackLayout
-                    Grid.Row="1"
-                    Grid.Column="2"         
-                    VerticalOptions="Center">
-
-                    <Label Text="Subtotal"
+                         Grid.Row="1"
+                         Grid.Column="2"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center" >
+                    <Label Text="Subtotal" 
                            TextColor="{StaticResource LightFont}"/>
-
+                    <Label x:Name="lblSubtotal"
+                           FontAttributes="Bold"
+                           Text="$0.00"
+                           TextColor="{StaticResource LightFont}"/>
                 </VerticalStackLayout>
-
             </Grid>
-            
         </Frame>
-        
+
+        <Grid Grid.Row="1" 
+              Margin="0,20,0,0"
+              ColumnDefinitions="0.3*, 0.7*"
+              RowDefinitions="Auto, Auto, Auto, Auto"
+              RowSpacing="20">
+
+            <Label Text="Cuenta:"
+                    TextColor="{StaticResource LightFont}"
+                    VerticalOptions="Center" />
+            <Entry x:Name="txtBill"
+                   Grid.Column="1"
+                    Text="0.0"
+                    Keyboard="Numeric"
+                    BackgroundColor="{StaticResource SectionColor}"
+                    TextColor="{StaticResource LightFont}" 
+                   Completed="txtBill_Completed"/>
+            <Label Grid.Row="1" 
+                    Text="Propina:"
+                    TextColor="{StaticResource LightFont}"
+                    VerticalOptions="Center" />
+
+            <HorizontalStackLayout Grid.Row="1"
+                    Grid.Column="1"
+                    Spacing="10"
+                    HorizontalOptions="Center">
+                <Button Text="10%" WidthRequest="70" Clicked="Button_Clicked"/>
+                <Button Text="15%" WidthRequest="70" Clicked="Button_Clicked"/>
+                <Button Text="20%" WidthRequest="70" Clicked="Button_Clicked"/>
+            </HorizontalStackLayout>
+            <Label x:Name="lblTip"
+                   Grid.Row="2"
+                   Text="Propina: 0%"
+                   TextColor="{StaticResource LightFont}"
+                   VerticalOptions="Center" />
+            <Slider x:Name="sldtip"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Minimum="0"
+                    Maximum="50"
+                    ValueChanged="sdltip_ValueChanged"
+                                  />
+
+            <Label 
+                Grid.Row="3"
+                Text="Total Split"
+                TextColor="{StaticResource LightFont}"
+                VerticalOptions="Center"/>
+            <HorizontalStackLayout
+                Grid.Row="3"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+                <Button x:Name="btnMinus"
+                        Text="-"
+                        WidthRequest="70"
+                        Clicked="btnMinus_Clicked"/>
+                <Label x:Name="lblNoperson"
+                       Margin="-5,0,-5,0"
+                       BackgroundColor="{StaticResource SectionColor}"
+                       FontSize="25"
+                       HeightRequest="50"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Text="1"
+                       TextColor="{StaticResource LightFont}"
+                       VerticalOptions="Center"
+                       WidthRequest="100"/>
+                <Button x:Name="btnPlus"
+                        Text="+"
+                        WidthRequest="70"
+                        Clicked="btnPlus_Clicked"/>
+            </HorizontalStackLayout>
+        </Grid>
+
+
+
     </Grid>
-    
-    
-    
+
 </ContentPage>

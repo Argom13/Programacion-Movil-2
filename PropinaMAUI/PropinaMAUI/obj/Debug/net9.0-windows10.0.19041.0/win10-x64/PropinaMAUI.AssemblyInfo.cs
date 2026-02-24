@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropinaMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7862a6c474574e61e418d3a80d0663827c335b3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1251643380ee1326f680ebd80ac2c42c4134ac55")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropinaMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropinaMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
