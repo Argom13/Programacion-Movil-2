@@ -13,20 +13,34 @@
 
         private void txtBill_Completed(object sender, EventArgs e)
         {
-            bill = decimal.Parse(txtBill.Text);
-            calculateTotal();
+            if(decimal.TryParse(txtBill.Text, out decimal result))
+            {
+                bill = result;
+                calculateTotal();
+            }
+            else
+            {
+                bill = 0;
+            }
+            
         }
 
         private void calculateTotal()
         {
+            //  la propina total
             var totalTip = (bill * tip) / 100;
-            var tipByPerson = (totalTip / noPerson);
-            lblTip.Text = $"{ tipByPerson:C}";
 
+            //  Propina por persona
+            var tipByPerson = (totalTip / noPerson);
+            lblTip.Text = $"{tipByPerson:C}"; // propina calculada
+
+            //  Subtotal por persona (La cuenta sin propina)
             var subtotal = (bill / noPerson);
             lblSubtotal.Text = $"{subtotal:C}";
 
-            var totalByPerson = (bill / noPerson);
+            // Total por persona (Cuenta + Propina) / Personas
+
+            var totalByPerson = (bill + totalTip) / noPerson;
             Lbltotal.Text = $"{totalByPerson:C}";
         }
 
