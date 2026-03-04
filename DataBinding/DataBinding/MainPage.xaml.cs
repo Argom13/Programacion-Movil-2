@@ -13,20 +13,20 @@ namespace DataBinding
 
         private void OnCounterClicked(object? sender, EventArgs e)
         {
-            var person = new Persona
+            /*var person = new Persona
             {
                 Name = "Nepumuseno",
                 Phone = "123456789",
                 Address = "Calle Falsa 123"
 
-            };
+            };*/
 
-            Binding PersonaBinding = new Binding();
+            /*Binding PersonaBinding = new Binding();
 
             PersonaBinding.Source = person;
             PersonaBinding.Path = "Name";
 
-            txtNombre.SetBinding(Label.TextProperty, PersonaBinding);
+            txtNombre.SetBinding(Label.TextProperty, PersonaBinding);*/
         }
     }
 }

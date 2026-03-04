@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\modelo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1969CD59-C198-4036-8DB5-F8F4377D7654}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\modelo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\modelo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\modelo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "DataBinding\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml.cs",
               "RelativeToolTip": "DataBinding\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T23:30:46.15Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "DataBinding\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml",
               "RelativeToolTip": "DataBinding\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-02T23:30:44.228Z",
               "EditorCaption": ""
