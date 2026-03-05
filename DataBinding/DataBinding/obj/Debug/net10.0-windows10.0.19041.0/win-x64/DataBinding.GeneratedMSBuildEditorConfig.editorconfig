@@ -58,6 +58,16 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[C:/Users/Fajardo/source/repos/Programacion-Movil-2/DataBinding/DataBinding/Pages/SliderPages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DataBinding.Pages.SliderPages.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SliderPages.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SliderPages.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [C:/Users/Fajardo/source/repos/Programacion-Movil-2/DataBinding/DataBinding/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DataBinding.Resources.Styles.Colors.xaml

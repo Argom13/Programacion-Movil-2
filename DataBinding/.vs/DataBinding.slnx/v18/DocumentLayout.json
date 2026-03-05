@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\pages\\sliderpages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\sliderpages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE679667-5D5D-BFD2-72B6-26422F38E3AC}|DataBinding\\DataBinding.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\databinding\\databinding\\modelo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +42,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SliderPages.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\Pages\\SliderPages.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\SliderPages.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\Pages\\SliderPages.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\SliderPages.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-04T23:37:51.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\AppShell.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\AppShell.xaml",
+              "RelativeToolTip": "DataBinding\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-04T23:34:39.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "DataBinding\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml.cs",
               "RelativeToolTip": "DataBinding\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T23:30:46.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml",
               "RelativeDocumentMoniker": "DataBinding\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\MainPage.xaml",
               "RelativeToolTip": "DataBinding\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-02T23:30:44.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\DataBinding\\DataBinding\\Modelo\\Persona.cs",
               "RelativeDocumentMoniker": "DataBinding\\Modelo\\Persona.cs",

@@ -4,12 +4,12 @@
              xmlns:Models="clr-namespace:DataBinding.Modelo"
              x:Class="DataBinding.MainPage">
 
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <Models:Persona x:Key="person"
                        Name="Agripino"
                        Address="Aqui estamos"
                        Phone="xxxxxx"/>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
 
     <ScrollView>
         <VerticalStackLayout
@@ -18,11 +18,29 @@
 
 
 
-            <Label x:Name="txtNombre"
+            <!--<Label x:Name="txtNombre"
                  HorizontalOptions="Center"
                Text="{Binding Name, Source={StaticResource person}}"
                  FontSize="60"
+                 VerticalOptions="Center"/>-->
+
+            <Label
+                 HorizontalOptions="Center"
+                 FontSize="60"
+                 Text="{Binding Name}"
                  VerticalOptions="Center"/>
+
+             <Label
+                HorizontalOptions="Center"
+                FontSize="60"
+                Text="{Binding Phone}"
+                VerticalOptions="Center"/>
+
+             <Label
+                HorizontalOptions="Center"
+                FontSize="60"
+                Text="{Binding Address}"
+                VerticalOptions="Center"/>
 
             <Button
                 x:Name="CounterBtn"
