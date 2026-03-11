@@ -427,7 +427,6 @@ C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\D
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xaml
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xbf
-C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\DataBinding.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-100.png
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-125.png
@@ -517,3 +516,4 @@ C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\D
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Fajardo\source\repos\Programacion-Movil-2\DataBinding\DataBinding\obj\Debug\net10.0-windows10.0.19041.0\win-x64\\XamlSaveStateFile.xml
