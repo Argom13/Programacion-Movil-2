@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Diego_Fajardo.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
+
+            <!-- Título -->
+            <Label Text="Conversor de Moneda"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#1A237E" />
+
+            <Label Text="Tasas basadas en el Lempira"
+                   FontSize="13"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#757575" />
+
+            <!-- Monto a convertir -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="16"
+                   Padding="16"
+                   HasShadow="True">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Monto a convertir"
+                           FontSize="14"
+                           TextColor="#555" />
+                    <Entry x:Name="entryMonto"
+                           Placeholder="Ej: 100"
+                           Keyboard="Numeric"
+                           FontSize="22"
+                           TextColor="#1A237E"
+                           TextChanged="onMontoChanged" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Moneda de origen -->
+            <!-- En lugar del Picker de origen -->
+            <Frame BackgroundColor="White" CornerRadius="16" Padding="16" HasShadow="True">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="De (moneda origen)" FontSize="14" TextColor="#555" />
+                    <RadioButton x:Name="rbOrigenHNL" Content="🇭🇳 Lempira (HNL)" 
+                     GroupName="Origen" CheckedChanged="OnMonedaChanged" />
+                    <RadioButton x:Name="rbOrigenUSD" Content="🇺🇸 Dólar (USD)"    
+                     GroupName="Origen" CheckedChanged="OnMonedaChanged" IsChecked="True" />
+                    <RadioButton x:Name="rbOrigenEUR" Content="🇪🇺 Euro (EUR)"      
+                     GroupName="Origen" CheckedChanged="OnMonedaChanged" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Botón intercambiar -->
+            <Button Text="⇅ Intercambiar monedas"
+                    BackgroundColor="#3949AB"
+                    TextColor="White"
+                    CornerRadius="12"
+                    FontSize="15"
+                    Clicked="OnIntercambiarClicked" />
+
+            <!-- Moneda destino -->
+            <Frame BackgroundColor="White" CornerRadius="16" Padding="16" HasShadow="True">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="De (moneda origen)" FontSize="14" TextColor="#555" />
+                    <RadioButton x:Name="rbOrigenHNL" Content="🇭🇳 Lempira (HNL)" 
+                    GroupName="Origen" CheckedChanged="OnMonedaChanged" />
+                    <RadioButton x:Name="rbOrigenUSD" Content="🇺🇸 Dólar (USD)"    
+                    GroupName="Origen" CheckedChanged="OnMonedaChanged" IsChecked="True" />
+                    <RadioButton x:Name="rbOrigenEUR" Content="🇪🇺 Euro (EUR)"      
+                    GroupName="Origen" CheckedChanged="OnMonedaChanged" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Resultado -->
+            <Frame BackgroundColor="#E8EAF6"
+                   CornerRadius="16"
+                   Padding="20"
+                   HasShadow="True">
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Resultado"
+                           FontSize="14"
+                           TextColor="#555" />
+                    <Label x:Name="lblResultado"
+                           Text="0.00"
+                           FontSize="36"
+                           FontAttributes="Bold"
+                           TextColor="#1A237E"
+                           HorizontalTextAlignment="Center" />
+                    <Label x:Name="lblTasa"
+                           Text=""
+                           FontSize="12"
+                           TextColor="#757575"
+                           HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Tasas de referencia -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="16"
+                   Padding="16"
+                   HasShadow="True">
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Tasas de referencia (HNL)"
+                           FontSize="14"
+                           FontAttributes="Bold"
+                           TextColor="#1A237E" />
+                    <Label Text="1 USD = 24.75 HNL"
+                           FontSize="13"
+                           TextColor="#555" />
+                    <Label Text="1 EUR = 26.90 HNL"
+                           FontSize="13"
+                           TextColor="#555" />
+                    <Label Text="1 HNL = 0.0404 USD"
+                           FontSize="13"
+                           TextColor="#555" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

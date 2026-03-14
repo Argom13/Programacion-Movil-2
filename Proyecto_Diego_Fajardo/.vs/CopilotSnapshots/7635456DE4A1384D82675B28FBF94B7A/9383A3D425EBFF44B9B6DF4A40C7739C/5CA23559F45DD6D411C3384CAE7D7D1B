@@ -1,0 +1,96 @@
+﻿using Microsoft.Maui.Controls;
+
+namespace Proyecto_Diego_Fajardo;
+
+public partial class MainPage : ContentPage
+{
+    // Tasas: cuántos HNL vale 1 unidad de cada moneda
+    const double USD_A_HNL = 24.75;
+    const double EUR_A_HNL = 26.90;
+    const double HNL_A_HNL = 1.0;
+
+    public MainPage()
+    {
+        InitializeComponent();
+    }
+
+    private void OnMontoChanged(object sender, TextChangedEventArgs e)
+    {
+        Convertir();
+    }
+
+    private void OnMonedaChanged(object sender, CheckedChangedEventArgs e)
+    {
+        Convertir();
+    }
+
+    private void OnIntercambiarClicked(object sender, EventArgs e)
+    {
+        // Guardar origen actual
+        bool origenHNL = rbOrigenHNL.IsChecked;
+        bool origenUSD = rbOrigenUSD.IsChecked;
+        bool origenEUR = rbOrigenEUR.IsChecked;
+
+        // Pasar destino a origen
+        rbOrigenHNL.IsChecked = rbDestinoHNL.IsChecked;
+        rbOrigenUSD.IsChecked = rbDestinoUSD.IsChecked;
+        rbOrigenEUR.IsChecked = rbDestinoEUR.IsChecked;
+
+        // Pasar origen guardado a destino
+        rbDestinoHNL.IsChecked = origenHNL;
+        rbDestinoUSD.IsChecked = origenUSD;
+        rbDestinoEUR.IsChecked = origenEUR;
+
+        Convertir();
+    }
+
+    private string ObtenerMonedaOrigen()
+    {
+        if (rbOrigenUSD.IsChecked) return "USD";
+        if (rbOrigenEUR.IsChecked) return "EUR";
+        return "HNL";
+    }
+
+    private string ObtenerMonedaDestino()
+    {
+        if (rbDestinoUSD.IsChecked) return "USD";
+        if (rbDestinoEUR.IsChecked) return "EUR";
+        return "HNL";
+    }
+
+    private double ObtenerTasaEnHNL(string moneda)
+    {
+        switch (moneda)
+        {
+            case "USD": return USD_A_HNL;
+            case "EUR": return EUR_A_HNL;
+            default: return HNL_A_HNL;
+        }
+    }
+
+    private void Convertir()
+    {
+        // Validar que haya algo escrito
+        if (string.IsNullOrEmpty(entryMonto.Text))
+        {
+            labelResultado.Text = "0.00";
+            labelTasa.Text = "";
+            return;
+        }
+
+        double monto = double.Parse(entryMonto.Text);
+
+        string origen = ObtenerMonedaOrigen();
+        string destino = ObtenerMonedaDestino();
+
+        // Convertir: origen → HNL → destino
+        double enHNL = monto * ObtenerTasaEnHNL(origen);
+        double resultado = enHNL / ObtenerTasaEnHNL(destino);
+
+        // Tasa directa para mostrar referencia
+        double tasaDirecta = ObtenerTasaEnHNL(origen) / ObtenerTasaEnHNL(destino);
+
+        lblResultado.Text = resultado.ToString("N2");
+        lblTasa.Text = $"1 {origen} = {tasaDirecta:N4} {destino}";
+    }
+}
