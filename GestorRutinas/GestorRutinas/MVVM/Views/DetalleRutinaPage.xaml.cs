@@ -1,0 +1,84 @@
+using GestorRutinas.MVVM.Models;
+using GestorRutinas.MVVM.ViewModels;
+
+namespace GestorRutinas.MVVM.Views;
+
+public partial class DetalleRutinaPage : ContentPage
+{
+    private RutinaViewModel _viewModel;
+
+    public DetalleRutinaPage() : this(new RutinaViewModel()) { }
+
+    public DetalleRutinaPage(RutinaViewModel viewModel)
+    {
+        InitializeComponent();
+        _viewModel = viewModel;
+        BindingContext = _viewModel;
+        ActualizarUI();
+    }
+
+    private void ActualizarUI()
+    {
+        var rutina = _viewModel.RutinaSeleccionada;
+        if (rutina != null)
+        {
+            NombreRutinaLabel.Text = rutina.Nombre;
+            DescripcionRutinaLabel.Text = rutina.Descripcion;
+            TotalEjerciciosLabel.Text = rutina.TotalEjercicios.ToString();
+            VolumenTotalLabel.Text = $"{rutina.VolumenTotalRutina:F0} kg";
+            MayorPesoLabel.Text = rutina.EjercicioMayorPeso != null
+                ? $"{rutina.EjercicioMayorPeso.Peso:F0} kg"
+                : "N/A";
+
+            EjerciciosCollectionView.ItemsSource = rutina.Ejercicios;
+        }
+    }
+
+    private async void OnEditarEjercicioClicked(object sender, EventArgs e)
+    {
+        var button = sender as Button;
+        if (button?.BindingContext is Ejercicio ejercicio)
+        {
+            _viewModel.EjercicioSeleccionado = ejercicio;
+            await Navigation.PushAsync(new EditarEjercicioPage(_viewModel, ejercicio));
+        }
+    }
+
+    private async void OnCompletarEjercicioClicked(object sender, EventArgs e)
+    {
+        var button = sender as Button;
+        if (button?.BindingContext is Ejercicio ejercicio)
+        {
+            _viewModel.RegistrarEjecucion(ejercicio);
+            ActualizarUI();
+            await DisplayAlert("¡Completado!",
+                $"Ejercicio registrado: {ejercicio.Nombre}",
+                "OK");
+        }
+    }
+
+    private async void OnEliminarEjercicioClicked(object sender, EventArgs e)
+    {
+        var button = sender as Button;
+        if (button?.BindingContext is Ejercicio ejercicio)
+        {
+            bool confirmar = await DisplayAlert("Confirmar",
+                $"¿Eliminar '{ejercicio.Nombre}' de esta rutina?",
+                "Sí",
+                "No");
+
+            if (confirmar)
+            {
+                _viewModel.EliminarEjercicio(ejercicio);
+                ActualizarUI();
+                await DisplayAlert("Eliminado", "El ejercicio ha sido eliminado.", "OK");
+            }
+        }
+    }
+
+    private async void OnAgregarEjercicioClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AgregarEjercicioPage(_viewModel));
+    }
+
+}

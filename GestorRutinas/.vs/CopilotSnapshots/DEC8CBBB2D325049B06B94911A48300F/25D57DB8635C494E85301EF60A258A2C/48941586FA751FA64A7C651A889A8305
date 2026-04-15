@@ -1,0 +1,110 @@
+﻿using GestorRutinas.MVVM.Models;
+using GestorRutinas.MVVM.ViewModels;
+
+namespace GestorRutinas.MVVM.Views;
+
+public partial class EditarEjercicioPage : ContentPage
+{
+    private RutinaViewModel _viewModel;
+    private Ejercicio _ejercicio;
+
+    public EditarEjercicioPage(RutinaViewModel viewModel, Ejercicio ejercicio)
+    {
+        InitializeComponent();
+        _viewModel = viewModel;
+        _ejercicio = ejercicio;
+        CargarDatos();
+    }
+
+    private void CargarDatos()
+    {
+        if (_ejercicio != null)
+        {
+            NombreEntry.Text = _ejercicio.Nombre;
+            DescripcionEditor.Text = _ejercicio.Descripcion;
+            SeriesSlider.Value = _ejercicio.Series;
+            RepeticionesSlider.Value = _ejercicio.Repeticiones;
+            PesoEntry.Text = _ejercicio.Peso.ToString();
+            FechaUltimaLabel.Text = $"Última vez: {_ejercicio.FechaUltimaVez:dd/MM/yyyy}\nDías transcurridos: {_ejercicio.DíasDesdeÚltimo}";
+
+            SeriesValueLabel.Text = $"{_ejercicio.Series}";
+            RepeticionesValueLabel.Text = $"{_ejercicio.Repeticiones}";
+
+            ActualizarResumen();
+        }
+    }
+
+    private void OnSeriesSliderChanged(object sender, ValueChangedEventArgs e)
+    {
+        SeriesValueLabel.Text = $"{(int)e.NewValue}";
+        ActualizarResumen();
+    }
+
+    private void OnRepeticionesSliderChanged(object sender, ValueChangedEventArgs e)
+    {
+        RepeticionesValueLabel.Text = $"{(int)e.NewValue}";
+        ActualizarResumen();
+    }
+
+    private void OnPesoTextChanged(object sender, TextChangedEventArgs e)
+    {
+        ActualizarResumen();
+    }
+
+    private void ActualizarResumen()
+    {
+        var series = (int)SeriesSlider.Value;
+        var reps = (int)RepeticionesSlider.Value;
+        var nombre = NombreEntry.Text ?? "Sin nombre";
+        var peso = PesoEntry.Text ?? "0";
+
+        ResumenLabel.Text = $"{nombre}\n" +
+                          $"Series: {series} | Repeticiones: {reps}\n" +
+                          $"Peso: {peso} kg\n" +
+                          $"Volumen: {series * reps * (decimal.TryParse(peso, out var p) ? p : 0):F0} kg";
+    }
+
+    private async void OnCancelarClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
+
+    private async void OnGuardarClicked(object sender, EventArgs e)
+    {
+        string nombre = NombreEntry.Text?.Trim();
+        if (string.IsNullOrWhiteSpace(nombre))
+        {
+            await DisplayAlert("Error", "El nombre del ejercicio es requerido.", "OK");
+            return;
+        }
+
+        if (!decimal.TryParse(PesoEntry.Text, out decimal peso))
+        {
+            await DisplayAlert("Error", "Ingresa un peso válido (numérico).", "OK");
+            return;
+        }
+
+        if (peso <= 0)
+        {
+            await DisplayAlert("Error", "El peso debe ser mayor a 0.", "OK");
+            return;
+        }
+
+        int series = (int)SeriesSlider.Value;
+        int reps = (int)RepeticionesSlider.Value;
+        string descripcion = DescripcionEditor.Text ?? "";
+
+        _ejercicio.Nombre = nombre;
+        _ejercicio.Descripcion = descripcion;
+        _ejercicio.Series = series;
+        _ejercicio.Repeticiones = reps;
+        _ejercicio.Peso = peso;
+
+        await DisplayAlert("¡Éxito!",
+            $"Ejercicio actualizado: {nombre}\n{series}x{reps} @ {peso}kg",
+            "OK");
+
+        await Navigation.PopAsync();
+    }
+
+}

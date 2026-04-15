@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc643e156aa132f1d394" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="GestorRutinas.MainActivity, GestorRutinas">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc643e156aa132f1d394" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="GestorRutinas.MainApplication, GestorRutinas" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="GestorRutinas" module-name="GestorRutinas.dll">
+    <type assembly-qualified-name="GestorRutinas.MainActivity, GestorRutinas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="gestorrutinas.MainActivity" java-key="crc643e156aa132f1d394.MainActivity" managed-key="GestorRutinas.MainActivity" partial-assembly-qualified-name="GestorRutinas.MainActivity, GestorRutinas" />
+    <type assembly-qualified-name="GestorRutinas.MainApplication, GestorRutinas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="gestorrutinas.MainApplication" java-key="crc643e156aa132f1d394.MainApplication" managed-key="GestorRutinas.MainApplication" partial-assembly-qualified-name="GestorRutinas.MainApplication, GestorRutinas" />
+  </acw-types>
+</api>

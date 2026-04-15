@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\viewmodels\\conversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\viewmodels\\conversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\detallerutinapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\detallerutinapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\agregarejerciciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\agregarejerciciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\agregarejerciciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\agregarejerciciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\detallerutinapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\detallerutinapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\viewmodels\\detallerutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\viewmodels\\detallerutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\editarejerciciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\editarejerciciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\views\\editarejerciciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\views\\editarejerciciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|c:\\users\\fajardo\\source\\repos\\programacion-movil-2\\gestorrutinas\\gestorrutinas\\mvvm\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59718A9E-4CFC-4069-9DAD-062C02C1601C}|GestorRutinas\\GestorRutinas.csproj|solutionrelative:gestorrutinas\\mvvm\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\AppShell.xaml",
+              "RelativeDocumentMoniker": "GestorRutinas\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\AppShell.xaml",
+              "RelativeToolTip": "GestorRutinas\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-15T06:58:54.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\App.xaml",
+              "RelativeDocumentMoniker": "GestorRutinas\\App.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\App.xaml",
+              "RelativeToolTip": "GestorRutinas\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-15T06:58:52.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditarEjercicioPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:34:56.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditarEjercicioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\EditarEjercicioPage.xaml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-15T06:34:24.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgregarEjercicioPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:33:35.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleRutinaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:25:45.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarEjercicioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\AgregarEjercicioPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAIIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-15T06:12:35.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetalleRutinaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Views\\DetalleRutinaPage.xaml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-15T06:11:41.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conversos.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\ViewModels\\Conversos.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\ViewModels\\Conversos.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\ViewModels\\Conversos.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\ViewModels\\Conversos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:10:45.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetalleRutinaView.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\ViewModels\\DetalleRutinaView.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\ViewModels\\DetalleRutinaView.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\ViewModels\\DetalleRutinaView.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\ViewModels\\DetalleRutinaView.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:10:34.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rutina.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Models\\Rutina.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Models\\Rutina.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Models\\Rutina.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Models\\Rutina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:34:10.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ejercicio.cs",
+              "DocumentMoniker": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Models\\Ejercicio.cs",
+              "RelativeDocumentMoniker": "GestorRutinas\\MVVM\\Models\\Ejercicio.cs",
+              "ToolTip": "C:\\Users\\Fajardo\\source\\repos\\Programacion-Movil-2\\GestorRutinas\\GestorRutinas\\MVVM\\Models\\Ejercicio.cs",
+              "RelativeToolTip": "GestorRutinas\\MVVM\\Models\\Ejercicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:33:33.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

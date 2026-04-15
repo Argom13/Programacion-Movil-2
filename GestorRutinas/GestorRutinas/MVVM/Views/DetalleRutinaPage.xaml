@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GestorRutinas.MVVM.ViewModels"
+             x:Class="GestorRutinas.MVVM.Views.DetalleRutinaPage"
+             Title="Detalle de Rutina"
+             BackgroundColor="#F5F5F5">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:VolumenConverter x:Key="VolumenConverter"/>
+            <local:VolumenColorConverter x:Key="VolumenColorConverter"/>
+            <local:DiasColorConverter x:Key="DiasColorConverter"/>
+            <local:DiasTextoConverter x:Key="DiasTextoConverter"/>
+            <local:FechaConverter x:Key="FechaConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Padding="15" Spacing="10">
+
+        <Frame CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#E0E0E0">
+            <VerticalStackLayout Spacing="8">
+                <Label x:Name="NombreRutinaLabel"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#003366"/>
+
+                <Label x:Name="DescripcionRutinaLabel"
+                       FontSize="12"
+                       TextColor="#666"/>
+
+                <StackLayout Orientation="Horizontal" Spacing="20" Margin="0,8,0,0">
+                    <VerticalStackLayout Spacing="3">
+                        <Label Text="Total Ejercicios"
+                               FontSize="11"
+                               TextColor="#999"/>
+                        <Label x:Name="TotalEjerciciosLabel"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="#FF6B35"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="3">
+                        <Label Text="Volumen Total"
+                               FontSize="11"
+                               TextColor="#999"/>
+                        <Label x:Name="VolumenTotalLabel"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="#FF6B35"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="3">
+                        <Label Text="Mayor Peso"
+                               FontSize="11"
+                               TextColor="#999"/>
+                        <Label x:Name="MayorPesoLabel"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="#FF6B35"/>
+                    </VerticalStackLayout>
+                </StackLayout>
+            </VerticalStackLayout>
+        </Frame>
+
+        <Label Text="Ejercicios de esta rutina:"
+               FontSize="14"
+               TextColor="#666"
+               Margin="0,10,0,0"
+               FontAttributes="Bold"/>
+
+        <CollectionView x:Name="EjerciciosCollectionView"
+                        SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="10"
+                           HasShadow="True"
+                           Margin="0,8"
+                           Padding="15"
+                           BorderColor="#E0E0E0">
+                        <VerticalStackLayout Spacing="10">
+                            <Label Text="{Binding Nombre}"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   TextColor="#003366"/>
+
+                            <Label Text="{Binding Descripcion}"
+                                   FontSize="11"
+                                   TextColor="#999"
+                                   IsVisible="{Binding Descripcion, Converter={StaticResource VolumenConverter}}"/>
+
+                            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="10" RowSpacing="5">
+                                <VerticalStackLayout Grid.Column="0" Spacing="3">
+                                    <Label Text="Series" FontSize="11" TextColor="#999"/>
+                                    <Label Text="{Binding Series}" 
+                                           FontSize="14" 
+                                           FontAttributes="Bold"
+                                           TextColor="#FF6B35"/>
+                                </VerticalStackLayout>
+
+                                <VerticalStackLayout Grid.Column="1" Spacing="3">
+                                    <Label Text="Reps" FontSize="11" TextColor="#999"/>
+                                    <Label Text="{Binding Repeticiones}" 
+                                           FontSize="14" 
+                                           FontAttributes="Bold"
+                                           TextColor="#FF6B35"/>
+                                </VerticalStackLayout>
+
+                                <VerticalStackLayout Grid.Column="2" Spacing="3">
+                                    <Label Text="Peso" FontSize="11" TextColor="#999"/>
+                                    <Label Text="{Binding Peso, StringFormat='{0:F0} kg'}" 
+                                           FontSize="14" 
+                                           FontAttributes="Bold"
+                                           TextColor="#FF6B35"/>
+                                </VerticalStackLayout>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="*,*" ColumnSpacing="10" RowSpacing="5">
+                                <VerticalStackLayout Grid.Column="0" Spacing="3">
+                                    <Label Text="Volumen Total" FontSize="11" TextColor="#999"/>
+                                    <Label Text="{Binding VolumenTotal, Converter={StaticResource VolumenConverter}}"
+                                           FontSize="13" 
+                                           FontAttributes="Bold"
+                                           TextColor="{Binding VolumenTotal, Converter={StaticResource VolumenColorConverter}}"/>
+                                </VerticalStackLayout>
+
+                                <VerticalStackLayout Grid.Column="1" Spacing="3">
+                                    <Label Text="Hace..." FontSize="11" TextColor="#999"/>
+                                    <Label Text="{Binding DiasDesdeUltimo, Converter={StaticResource DiasTextoConverter}}"
+                                           FontSize="13" 
+                                           FontAttributes="Bold"
+                                           TextColor="{Binding DiasDesdeUltimo, Converter={StaticResource DiasColorConverter}}"/>
+                                </VerticalStackLayout>
+                            </Grid>
+
+                            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+                                <Button Text="✏️ Editar"
+                                        BackgroundColor="#3498DB"
+                                        TextColor="White"
+                                        Padding="10,5"
+                                        CornerRadius="8"
+                                        FontSize="11"
+                                        x:Name="EditarButton"
+                                        Clicked="OnEditarEjercicioClicked"
+                                        HorizontalOptions="FillAndExpand"/>
+
+                                <Button Text="✓ Completar"
+                                        BackgroundColor="#27AE60"
+                                        TextColor="White"
+                                        Padding="10,5"
+                                        CornerRadius="8"
+                                        FontSize="11"
+                                        x:Name="CompletarButton"
+                                        Clicked="OnCompletarEjercicioClicked"
+                                        HorizontalOptions="FillAndExpand"/>
+
+                                <Button Text="❌ Eliminar"
+                                        BackgroundColor="#E74C3C"
+                                        TextColor="White"
+                                        Padding="10,5"
+                                        CornerRadius="8"
+                                        FontSize="11"
+                                        x:Name="EliminarButton"
+                                        Clicked="OnEliminarEjercicioClicked"
+                                        HorizontalOptions="FillAndExpand"/>
+                            </StackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="➕ Agregar Ejercicio"
+                BackgroundColor="#27AE60"
+                TextColor="White"
+                Padding="15,12"
+                CornerRadius="8"
+                FontSize="14"
+                FontAttributes="Bold"
+                Clicked="OnAgregarEjercicioClicked"
+                Margin="0,10"/>
+    </VerticalStackLayout>
+</ContentPage>
